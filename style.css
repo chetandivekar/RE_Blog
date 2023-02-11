@@ -1,0 +1,232 @@
+body,*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+.language__info .language__heading{
+   margin-bottom: 20px;
+}
+.blogs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+/* For Mobile Devices */
+
+.nav__bar .logo img{
+    width: 20px;
+    
+}
+
+.nav__bar{
+    margin-top: 10px;
+}
+
+.nav__bar .logo{
+    margin-left: 10px;
+}
+.date{
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.mar__bot{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.mar__bots{
+    margin-top: -3px;
+    margin-bottom: 20px;
+}
+
+.left h1{
+    font-size: 50px;
+    color:#2e2e2e ;
+}
+.left h1{
+    font-size: 20px;
+    color:#2e2e2e ;
+}
+
+.hero__img img{
+    width: 340px;
+}
+
+.hero__img{
+    margin: 20px 0 0 10px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    margin-right: 70px;
+    justify-content: center;
+}
+
+.right , .know__more ,nav{
+    display: none;
+}
+.blogs .blog img{
+    width: 120px;
+}
+.language__info{
+    padding: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.language__heading{
+   display: none;
+}
+.avg__salary{
+    margin-top: 10px;
+    font-weight: 700;
+}
+.head_-mobile{
+    font-size: 25px;
+    margin-left: -190px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+}
+
+
+@media only screen and (min-width: 768px) {
+ 
+.nav__bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__bar .logo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 25px;
+}
+
+.nav__bar .logo img{
+    width: 40px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    margin: 30px 55px 0 0;
+}
+
+nav ul li{
+    cursor: pointer;
+    list-style: none;
+    padding-left: 25px;
+}
+
+.hero__img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 55px;
+} 
+
+.hero__img img{
+ width: 25rem;
+}
+
+.left{
+    font-family: 'Roboto', sans-serif;
+    margin-left: -70px;
+}
+.left h1{
+    font-size: 50px;
+    color:#2e2e2e ;
+}
+.date{
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+   
+}
+.mar__bot{
+    margin-bottom: 25px;
+}
+
+
+.right{
+    display: flex;
+    margin-top: 140px;
+}
+.right .content{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    
+}
+
+.right .content .languages{
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.know__more{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 55px;
+}
+
+.blogs .blog img{
+    width: 200px;
+}
+
+.blogs{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.language__info{
+    width: 50%;
+    margin-left: 250px;
+    line-height: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+.language__heading{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.avg__salary{
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.blog{
+    margin-left: 85px;
+}
+.language__info{
+    padding: 0px;
+}
+.hamburger-menu{
+    display: none;
+}
+.head_-mobile{
+    display: none;
+}
+
+  }
